@@ -8,7 +8,7 @@ This project demonstrates:
 - Exploratory Data Analysis (EDA)
 - Feature Engineering
 - Model Building using Scikit-Learn Pipelines and Logistic Regression
-- Model Evaluation and Cross-Validation
+- Model Evaluation
 - Custom Prediction Function for new passenger data
 
 ---
@@ -24,7 +24,7 @@ This project demonstrates:
 
 ## 🛠️ Tech Stack & Libraries
 - **Python**
-- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
+- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn
 - **Jupyter Notebook** for EDA and Model building
 
 Install all dependencies using the following command:
@@ -32,7 +32,7 @@ Install all dependencies using the following command:
 pip install -r requirements.txt
 ```
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 🔄 Clone the Repository
 ```bash
 git clone <https://github.com/Codex-Enigma/Titanic>
@@ -44,8 +44,8 @@ Run the Jupyter Notebook
 jupyter notebook titanic.ipynb
 ```
 
-
-🧠 Project Highlights & Innovation
+---
+## 🧠 Project Highlights & Innovation
 ✅ Data Cleaning and Handling Missing Values
 
 ✅ EDA using Matplotlib and Seaborn
@@ -64,12 +64,14 @@ jupyter notebook titanic.ipynb
 
 ✅ Acknowledgment of dataset flaw
 
-📈 Model Evaluation Metrics
+---
+
+## 📈 Model Evaluation Metrics
 Accuracy Score
 Precision, Recall, F1-Score
 Cross-validation score for generalization
 
-📊 Sample Classification Report:
+## 📊 Sample Classification Report:
 ```bash
 Classification Report:
                precision    recall  f1-score   support
@@ -82,24 +84,40 @@ Classification Report:
 weighted avg       1.00      1.00      1.00        84
 ```
 
-🔍 Exploratory Data Analysis (EDA) Highlights
+---
+## 🔍 Exploratory Data Analysis (EDA) Highlights
 Count plots of survivors by gender and class
 
-Age distribution
+🔹Age distribution
 
-Fare distribution (Box plot)
+🔹Fare distribution (Box plot)
 
-Correlation heatmap
+🔹Correlation heatmap
 
-📌 Insights from EDA:
+🔹Survival Count by Gender
+
+🔹Title Extraction Impact
+
+🔹Embarked Location Analysis
+  
+🔹IsAlone Feature
+
+ ## 📌 Insights from EDA:
 🔹 Gender Bias: Females have a 100% survival rate, males have 0%.
+
 🔹 Pclass Distribution: Higher-class passengers had higher survival chances.
+
 🔹 Age Distribution: Younger passengers showed better survival chances.
+
 🔹 Fare Analysis: Higher fare correlates with higher survival.
+
 🔹 Family Size Impact: Family presence influences survival.
+
 🔹 Dataset Bias: The model is highly biased due to gender imbalance.
 
-🖥️ Example Prediction for a New Passenger
+---
+
+## 🖥️ Example Prediction for a New Passenger
 Use the following function inside the notebook:
 ```bash
 predict_passenger(pipeline, {
@@ -110,6 +128,5 @@ predict_passenger(pipeline, {
 ```
 ```bash
 Sample Output:
-
 Prediction: Did Not Survive
 ```
