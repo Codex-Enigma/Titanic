@@ -24,7 +24,7 @@ This project demonstrates:
 
 ## 🛠️ Tech Stack & Libraries
 - **Python**
-- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn
+- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, ydata-profiling (for automated EDA report generation)
 - **Jupyter Notebook** for EDA and Model building
 
 Install all dependencies using the following command:
@@ -86,7 +86,10 @@ weighted avg       1.00      1.00      1.00        84
 
 ---
 ## 🔍 Exploratory Data Analysis (EDA) Highlights
-Count plots of survivors by gender and class
+
+🔹 Count plots of survivors by gender and class
+
+🔹 Generated an automated EDA report using **ydata-profiling** to summarize data insights, missing values, and feature distributions.
 
 🔹Age distribution
 
