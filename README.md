@@ -89,7 +89,7 @@ weighted avg       1.00      1.00      1.00        84
 
 🔹 Count plots of survivors by gender and class
 
-🔹 Generated an automated EDA report using **ydata-profiling** to summarize data insights, missing values, and feature distributions.
+🔹 Generated an automated EDA report using **ydata-profiling** to summarize data insights, missing values, and  feature distributions.
 
 🔹Age distribution
 
